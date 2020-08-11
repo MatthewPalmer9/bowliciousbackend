@@ -1,24 +1,16 @@
-# README
+## App Information
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a repo for the official back end for the Bowlicious Bowtique website. 
+Maintained by MRP Technologies.
 
-Things you may want to cover:
+If you have any questions, please contact the owner at: `matthewpalmer9@outlook.com`
 
-* Ruby version
+## How To Use
+In order for this application to work correctly, you will need the front end cloned as well as the back end.
+You can do this by opening another terminal along side of the first one.
 
-* System dependencies
+To clone this repo, type `git clone https://github.com/matthewpalmer9/bowliciousbackend` into the first terminal.
+Once cloned, type into your terminal `bundle install`, then `rails db:migrate`, and finally `rails s` to start the server.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To clone the front end repo, type `git clone https://github.com/matthewpalmer9/bowliciousbowtique` into your second terminal.
+Once cloned, type `npm start` to start the application.
