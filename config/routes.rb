@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   get '/products' => "products#index"
   get '/comments' => "comments#index"
+  get '/users' => "users#home"
   post '/comments' => "comments#create"
 end
