@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :comments, only: [:index, :create]
 
   get '/products' => "products#index"
+  post '/registrations' => "registrations#create"
   get '/comments' => "comments#index"
   get '/users' => "users#home"
   post '/comments' => "comments#create"
