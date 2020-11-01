@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :sessons, only: [:create]
   resources :registrations, only: [:create]
-  delete: :logout, to: "sessions#logout"
+  delete :logout, to: "sessions#logout"
   get :logged_in, to: "sessions#logged_in"
 
   resources :products, only: [:index, :create, :delete]
